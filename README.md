@@ -1,24 +1,12 @@
+
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+1. Database Set:
+  rails db:create
+  rails db:migrate
 
-Things you may want to cover:
+2. Start application
+   rails s
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+3. To check routes:
+rails routes
